@@ -1,8 +1,17 @@
-# `counter_dapp`
+# `ICP Counter DApp`
 
-Welcome to your new `counter_dapp` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+##### - counter DApp built on the Internet Computer (ICP). The frontend is developed using ReThis is a 
+  Count****act.js, while the backend is written in Rust.
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
+### 🚀 Features
+
+- Simple Counter (Increment & Decrement)
+
+- Uses ICP Canisters for backend logic
+
+- Frontend styled with Core CSS (IDs and Classes)
+
+
 
 To learn more before you start working with `counter_dapp`, see the following documentation available online:
 
