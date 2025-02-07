@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "counter_dapp_backend": {
+      "candid": "src/counter_dapp_backend/counter_dapp_backend.did",
+      "package": "counter_dapp_backend",
+      "type": "rust"
+    },
+    "counter_dapp_frontend": {
+      "dependencies": [
+        "counter_dapp_backend"
+      ],
+      "source": [
+        "src/counter_dapp_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "counter_dapp_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
